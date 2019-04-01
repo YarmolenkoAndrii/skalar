@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <db>
+        <host>127.0.0.1</host>
+        <dbname>skalar</dbname>
+        <username>root</username>
+        <password></password>
+    </db>
+    <contact>
+        <name>Andrii</name>
+        <tel>+38(050)402-37-97</tel>
+        <email>atn@ukr.net</email>
+    </contact>    
+</settings>

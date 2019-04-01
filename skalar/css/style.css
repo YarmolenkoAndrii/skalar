@@ -1,0 +1,109 @@
+.add_feedback {
+    background:#8D8D91;
+    margin: 15px 0;
+}
+
+.add_feedback form {
+    display: none;
+}
+
+.add_feedback h2 {
+    text-align: center;
+    cursor: pointer;
+}
+
+.add_feedback label
+{
+    display: inline-block;
+    width: 15%;
+    margin: 10px;
+}
+
+.add_feedback input,
+.add_feedback select,
+.add_feedback textarea {
+    width: 30%;
+}
+
+.feedbacks th {
+    width: 15%;
+}
+.feedbacks td {
+    text-align: center;
+}
+
+.sort_date{
+    cursor: pointer;
+}
+
+.per_page{
+    margin: 10px auto;
+    width: 170px;
+}
+.error {
+    color:red;
+}
+
+.but {
+    color: #000000;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 10px;
+    margin: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 15% !important;
+}
+
+.opinion{
+    background: #999;
+    padding: 20px;
+}
+
+.pagination {
+    background: #999;
+}
+
+div.content {
+    background: url("../images/bgContent.png") repeat scroll 0 0 transparent;
+    border: 8px solid #BFBFBF;
+    min-height: 193px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+div.content h1 {
+    border-bottom: 1px solid #ccc;
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 0 0 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.noFloat {
+    overflow: hidden;
+}
+
+.plusClear {
+    margin-left: 20%;
+}
+
+.plusOverflow {
+    overflow: hidden;
+}
+
+/* paging */
+div.wrapPaging {padding: 6px 0px 6px 16px; font-family: Arial, sans-serif; font-size: 14px; clear: both;margin:10px auto; width:100px;}
+div.wrapPaging a, div.wrapPaging span {margin: 0 1px; padding: 2px 5px; line-height: 26px; text-decoration: none;}
+div.wrapPaging a {background: none; color: #8d8d91 !important; text-decoration: underline; font-size: 14px;}
+div.wrapPaging span {background: #999; color: #000;}
+div.wrapPaging span.pagination {background: none; font-size: 15px; color: #999;}
+div.wrapPaging span.pagination span {background: none; color: #fff;}
+div.wrapPaging span.pagination a {font-size: 15px;}
+div.wrapPaging i {font-family: Times, sans-serif; margin: 0 5px 0 0;}
+div.wrapPaging a:hover {color: #ff0000;}
+div.wrapPaging strong {margin: 0 15px 0 0; font-size: 16px; font-weight: bold; color: #000;}
+/* end_paging */
